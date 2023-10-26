@@ -1,10 +1,10 @@
-#URL configuration for appointment_scheduling project.
+#URL configuration for data_visualization project.
 
 from django.contrib import admin
 from django.urls import path
+
 #views
 from login import views as login_views
-from calendar_app import views as calendar_views
 
 urlpatterns = [
     path("admin/", admin.site.urls),

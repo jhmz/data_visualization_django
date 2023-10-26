@@ -21,8 +21,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "login",
-    "appointment_scheduling"
+    "data_visualization",
+    "login"
 ]
 
 MIDDLEWARE = [
@@ -35,7 +35,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "appointment_scheduling.urls"
+ROOT_URLCONF = "data_visualization.urls"
 
 TEMPLATES = [
     {
@@ -54,7 +54,7 @@ TEMPLATES = [
 ]
 
 LOGIN_URL = '/login/'
-WSGI_APPLICATION = "appointment_scheduling.wsgi.application"
+WSGI_APPLICATION = "data_visualization.wsgi.application"
 
 
 # Database

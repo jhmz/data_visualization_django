@@ -1,5 +1,5 @@
 """
-ASGI config for appointment_scheduling project.
+ASGI config for data_visualization project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "appointment_scheduling.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "data_visualization.settings")
 
 application = get_asgi_application()
