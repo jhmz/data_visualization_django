@@ -10,10 +10,9 @@ def login_view(request):
         user = authenticate(request, username=username, password=password)
         if user is not None:
             login(request, user)
-            return redirect('home')  
+            return redirect('/')  
         else:
-            # Lide com a autenticação de usuário falhada aqui
-            pass
+            return redirect('login_view')
     return render(request, 'login/login.html')
 
 def register(request):
